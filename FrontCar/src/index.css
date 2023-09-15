@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&family=Red+Hat+Display:wght@300;400;700;900&family=Roboto&display=swap');
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(assets/wall.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Red Hat Display', sans-serif;
+  height: 100vh;
+  margin: -20px 0 50px;
+}
+
+.a{
+  text-decoration: none;
+}
+

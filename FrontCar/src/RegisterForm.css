@@ -1,0 +1,72 @@
+
+.form-register {
+    background: linear-gradient(90deg, #dd820b, #ac5e06);
+    padding: 0;
+}
+
+.form-title-register {
+    font-size: 2.1rem;
+    font-weight: 400;
+    color: #000;
+    
+}
+
+.form-social-register {
+    display: flex;
+    gap: 24px;
+}
+
+.social-icon-register {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1, 2rem;
+    background-color: #ffff;
+    box-shadow: 0 4px 4px #0004;
+    transition: .5s;
+}
+
+.social-icon-register:hover {
+    background-color: #72680d;
+    transform: translateY(-15%);
+    color: #ffff;
+
+}
+
+.form-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-input-register {
+    width: 300px;
+    height: 40px;
+    padding: 10px 20px;
+    border-style: none;
+    background-color: #f3f3f3;
+}
+
+.form-button-cadastro{
+    width: 140px;
+    height: 40px;
+    border-style: none;
+    border-radius: 50px;
+    border: 2px solid rgb(100, 74, 3);
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: .7s;
+    margin-top: 10px;
+}
+
+.form-button-cadastro:hover {
+    background-color: #9b8508;
+    color: #fff;
+
+}
