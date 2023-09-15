@@ -8,7 +8,7 @@ import { FaFacebook, FaGoogle, FaLinkedin } from 'react-icons/fa'
 function LoginForm() {
   return (
     /*========== Container ==========*/
-    <div className="login-container toggle" id="login-container">
+    <div className='login-container toggle'>
 
       {/*========== Login Container ==========*/}
       <div className="form-container">
@@ -62,23 +62,20 @@ function LoginForm() {
       </div>
 
       <div className="overlay-container">
-        <div className="overlay-n2">
-        <h2 className="form-title">Já tem conta?</h2>
-          <p className="form-text">Se já é nosso cliente, clica abaixo e vem conferir nossos serviços</p>
-          <button className="form-button">Entrar</button>
 
+          <div className="overlay">
+            <h2 className="form-title">Já tem conta?</h2>
+            <p className="form-text">Se já é nosso cliente, clica abaixo e vem conferir nossos serviços</p>
+            <button className="form-button">Entrar</button>
+          </div>
+
+          <div className="overlay">
+            <h2 className="form-title">Olá Brother!</h2>
+            <p className="form-text">Cadastre-se e venha conhecer nossos serviços!</p>
+            <button className="form-button">Cadastre-se</button>
+          </div>
         </div>
-
-        <div className="overlay-n1">
-          <h2 className="form-title">Olá Brother!</h2>
-          <p className="form-text">Cadastre-se e venha conhecer nossos serviços</p>
-          <button className="form-button">Cadastre-se</button>
-        </div>
-
       </div>
-
-
-    </div >
   );
 }
 
