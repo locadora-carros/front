@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+/*import styled from 'styled-components';
 
 export const Container = styled.div`
  background-color: #ffffff;
@@ -156,4 +156,4 @@ export const Paragraph = styled.p`
    line-height: 20px;
    letter-spacing: 0.5px;
    margin: 20px 0 30px
- `;
+ `; */
