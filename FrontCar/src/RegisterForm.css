@@ -6,16 +6,13 @@
 
 .form-title-register {
     font-size: 2.1rem;
-    font-weight: 400;
+    font-weight: bold;
     color: #000;
-    
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1%;
 }
-
-.form-social-register {
-    display: flex;
-    gap: 24px;
-}
-
 
 .form-input-container {
     display: flex;
@@ -28,6 +25,7 @@
     height: 40px;
     padding: 10px 20px;
     border-style: none;
+    border-radius: 20px;
     background-color: #f3f3f3;
 }
 
@@ -37,7 +35,7 @@
     border-style: none;
     border-radius: 50px;
     border: 2px solid rgb(100, 74, 3);
-    background-color: transparent;
+    background: linear-gradient(90deg, #dd820b, #ac5e06);
     font-size: 1rem;
     font-weight: 800;
     color: rgb(0, 0, 0);
