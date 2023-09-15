@@ -5,8 +5,10 @@
     border-radius: 20px;
     box-shadow: 0 5px 20px #a0a0a0;
     overflow: hidden;
+    transition: transform 0.3s ease;
 
 }
+
 
 .form-container {
     height: 100%;
