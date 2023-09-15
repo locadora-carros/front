@@ -42,14 +42,15 @@ function LoginForm() {
         </form>
         <form className="form form-register">
           <h2 className="form-title-register">Criar Conta</h2>
+
           <div className="form-social-register">
-            <a href="alguma-coisa" className="social-icon-register">
+            <a href="alguma-coisa" className="social-icon">
               <i className="fab fa-facebook-f"></i>
             </a>
-            <a href="alguma-coisa" className="social-icon-register">
+            <a href="alguma-coisa" className="social-icon">
               <i className="fab fa-google"></i>
             </a>
-            <a href="alguma-coisa" className="social-icon-register">
+            <a href="alguma-coisa" className="social-icon">
               <i className="fab fa-linkedin-in"></i>
             </a>
           </div>
