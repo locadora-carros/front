@@ -1,5 +1,6 @@
 
 .form-register {
+    position: absolute;
     background: linear-gradient(90deg, #dd820b, #ac5e06);
     padding: 0;
 }
@@ -16,25 +17,6 @@
     gap: 24px;
 }
 
-.social-icon-register {
-    height: 40px;
-    width: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    font-size: 1, 2rem;
-    background-color: #ffff;
-    box-shadow: 0 4px 4px #0004;
-    transition: .5s;
-}
-
-.social-icon-register:hover {
-    background-color: #72680d;
-    transform: translateY(-15%);
-    color: #ffff;
-
-}
 
 .form-input-container {
     display: flex;
