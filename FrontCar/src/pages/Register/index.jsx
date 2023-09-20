@@ -2,13 +2,12 @@ import { Link } from 'react-router-dom'
 import { useState } from "react";
 import { LayoutComponents } from "../../components/LayoutComponents"
 
-
-
 export const Register = () => {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [confirmPassword, setConfirmPassword] = useState("");
-    const [name, setName] = useState("")
+    const [firstName, setFirstName] = useState("")
+    const [lastName, setLastName] = useState("")
     return (
 
         <LayoutComponents>
@@ -17,20 +16,20 @@ export const Register = () => {
 
                 <div className="wrap-input">
                     <input
-                        className={name !== "" ? "has-val input" : "input"}
-                        type="email"
-                        value={name}
-                        onChange={(e) => setName(e.target.value)}
+                        className={firstName !== "" ? "has-val input" : "input"}
+                        type="text"
+                        value={firstName}
+                        onChange={(e) => setFirstName(e.target.value)}
                     />
                     <span className="focus-input" data-placeholder="Firs Name"></span>
                 </div>
 
                 <div className="wrap-input">
                     <input
-                        className={name !== "" ? "has-val input" : "input"}
-                        type="email"
-                        value={name}
-                        onChange={(e) => setEmail(e.target.value)}
+                        className={lastName !== "" ? "has-val input" : "input"}
+                        type="text"
+                        value={lastName}
+                        onChange={(e) => setLastName(e.target.value)}
                     />
                     <span className="focus-input" data-placeholder="Last Nome"></span>
                 </div>
