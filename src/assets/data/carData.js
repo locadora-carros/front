@@ -1,7 +1,7 @@
 // import all images from assets/images directory
-import img01 from "../all-images/cars-img/nissan-offer.png";
-import img02 from "../all-images/cars-img/offer-toyota.png";
-import img03 from "../all-images/cars-img/bmw-offer.png";
+import img01 from "../all-images/cars-img/civic.png";
+import img02 from "../all-images/cars-img/golf2.jpeg";
+import img03 from "../all-images/cars-img/ranger.png";
 import img04 from "../all-images/cars-img/nissan-offer.png";
 import img05 from "../all-images/cars-img/offer-toyota.png";
 import img06 from "../all-images/cars-img/mercedes-offer.png";
@@ -11,9 +11,9 @@ import img08 from "../all-images/cars-img/mercedes-offer.png";
 const carData = [
   {
     id: 1,
-    brand: "Tesla",
+    brand: "Civic",
     rating: 112,
-    carName: "Tesla Malibu",
+    carName: "Honda Civic",
     imgUrl: img01,
     model: "Model 3",
     price: 50,
@@ -29,7 +29,7 @@ const carData = [
     id: 2,
     brand: "Toyota",
     rating: 102,
-    carName: "Toyota Aventador",
+    carName: "Golf GTI",
     imgUrl: img02,
     model: "Model-2022",
     price: 50,
@@ -45,7 +45,7 @@ const carData = [
     id: 3,
     brand: "BMW",
     rating: 132,
-    carName: "BMW X3",
+    carName: "Ranger",
     imgUrl: img03,
     model: "Model-2022",
     price: 65,
