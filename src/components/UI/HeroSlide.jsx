@@ -17,7 +17,7 @@ const HeroSlide = () => {
     }
     return (
         <Slider{...settings} className="hero-slider">
-            <div className="slider-item slider-item-01 mo0">
+            <div className="slider-item slider-item-01 mt0">
                 <Container>
                     <div className="slider-content">
                         <h6 className="text-light mb-3">For Rent $xx Per Day</h6>
@@ -30,7 +30,7 @@ const HeroSlide = () => {
                 </Container>
             </div>
 
-            <div className="slider-item slider-item-01 mo0">
+            <div className="slider-item slider-item-01 mt0">
                 <Container>
                     <div className="slider-content">
                         <h6 className="text-light mb-3">For Rent $xx Per Day</h6>
@@ -43,7 +43,7 @@ const HeroSlide = () => {
                 </Container>
             </div>
 
-            <div className="slider-item slider-item-01 mo0">
+            <div className="slider-item slider-item-01 mt0">
                 <Container>
                     <div className="slider-content">
                         <h6 className="text-light mb-3">For Rent $xx Per Day</h6>
