@@ -11,8 +11,8 @@ const AboutSection = () => {
             <Row>
                 <Col lg='6' md='6'>
                     <div className="about__section-content">
-                        <h4 className="section__subtitle">About Us</h4>
-                        <h2 className="section__title">Welcome to car rent service </h2>
+                        <h4 className="section_subtitle">About Us</h4>
+                        <h2 className="section_title">Welcome to car rent service </h2>
                         <p className="section__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, quae dignissimos. Temporibus tempore ut asperiores fuga, ex velit natus consequatur, facilis sint deserunt nam? Eos cumque consequuntur, qui eius tempore quis in amet temporibus deserunt, necessitatibus quisquam assumenda nulla molestiae?
                         </p>
 
