@@ -1,89 +1,72 @@
 .footer {
+    background: #000d6b;
     padding-top: 50px;
     padding-bottom: 15px;
 }
 
-.footer-logo i {
-    background: #c89116;
+.footer_logo i {
+    background: #fff;
     color: #000d6b;
-    font-weight: 400;
+    font-weight: 500;
 }
 
-.footer-logo span {
-    color: #000d6b;
+.footer_logo span {
+    color: #fff;
     font-weight: 500;
     font-size: 19px;
 }
 
-.footer-logo-content {
-    color: #000d6b;
+.footer_logo-content {
+    color: rgba(255, 255, 255, 0.715);
     margin-top: 15px;
     line-height: 30px;
 }
 
-.quick-link {
+.quick_link {
     border: none !important;
     background: transparent !important;
 }
 
-.quick-link a {
-    color: #000d6b;
+.quick_link a {
+    color: rgba(255, 255, 255, 0.715);
     text-decoration: none;
     font-weight: 300;
     transition: .3s;
+}
+.footer_link-title{
+    color: #fff;
 }
 
 .quick-link a:hover {
     color: #c89116;
 }
 
-.office-info {
-    color: #000d6b;
+.office_info {
+    color: rgba(255, 255, 255, 0.715);
+    font-weight: 300;
 }
 
-.footer-left {
-
-    align-items: center;
-    column-gap: 1rem;
-    color: #000d6b;
-}
-
-.footer-help {
-
-    align-items: center;
-    column-gap: .4rem;
-}
-
-.footer-help i {
-    background: #c89116;
-    color: #ffffff;
-    padding: 2px 4px;
-    border-radius: 50px;
-    font-size: 0.7rem;
-}
-.footer-btn {
-    background: #c89116 !important;
-    padding: 10px 20px;
-    border: none;
-    outline: none;
-    border-radius: 5px;
-}
-
-.footer-btn a {
+.newsletter{
     display: flex;
     align-items: center;
-    column-gap: 0.4rem;
-    text-decoration: none;
+    justify-content: space-between;
+    padding: 8px 12px;
+    border: 1px solid #7c8a972f;
+    border-radius: 50px;
+    background: #020a4de9;
+}
+
+.newsletter input{
+    background: transparent;
+    color:#fff;
+    border: none;
+    outline: none;
+}
+.newsletter span i{
     color: #fff;
-
-    font-size: 0.9rem;
 }
 
-.footer-btn a:hover {
-    color: #fff;
+.footer_bottom{
+    border-top: 1px solid #7c8a972f;
 }
 
-
-.footer-bottom{
-    border-top: 1px solid #000d6b;
-}

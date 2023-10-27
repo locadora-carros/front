@@ -33,26 +33,28 @@ const Footer = () => {
         <Container>
             <Row>
                 <Col lg='4' md='4' sm='12'>
-                    <div className="logo footer-logo">
+                    <div className="logo footer_logo">
                         <h1>
-                            <Link to='/home' className="d-flex align-items-center gap-1">
-                                <i class="ri-roadster-line"></i>
-                                <span>Los Santos Company</span>
+                            <Link to="/home" className=" d-flex align-items-center gap-1">
+                                <i class="ri-car-line"></i>
+                                <span>
+                                    Los Santos <br /> Service
+                                </span>
                             </Link>
                         </h1>
                     </div>
-                    <p className="footer-logo-content">
+                    <p className="footer_logo-content">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptas, earum soluta quis nesciunt aliquam quisquam aut laborum, dicta et eos fugit natus! Neque iusto nobis quas quam saepe fugiat.
                     </p>
                 </Col>
 
                 <Col lg='2' md='4' sm='6'>
                     <div className="mb-4">
-                        <h5 className="footer-link-title">Quick link</h5>
+                        <h5 className="footer_link-title">Quick link</h5>
                         <ListGroup>
                             {
                                 quickLinks.map((item, index) => (
-                                    <ListGroupItem key={index} className="p-0 mt-3 quick-link">
+                                    <ListGroupItem key={index} className="p-0 mt-3 quick_link">
                                         <Link to={item.path}>{item.display}
                                         </Link>
 
@@ -63,37 +65,36 @@ const Footer = () => {
                     </div>
                 </Col>
 
-                <Col lg='4' md='4' sm='6'>
+                <Col lg='3' md='4' sm='6'>
                     <div className="mb-4">
-                        <h5 className="footer-link-title mb-4">Head Office</h5>
-                        <p className="office-info">Los Santos Company, João Pessoa, Paraiba</p>
-                        <p className="office-info">Phone: +55(83)9xxxx-xxxx</p>
-                        <p className="office-info">Email: vaiteralgum@email.aqui.com</p>
-                        <p className="office-info">Office Time 8am - 18pm</p>
+                        <h5 className="footer_link-title mb-4">Head Office</h5>
+                        <p className="office_info">Los Santos Company, João Pessoa, PB</p>
+                        <p className="office_info">Phone: +55(83)9xxxx-xxxx</p>
+                        <p className="office_info">Email: vaiteralgum@email.aqui.com</p>
+                        <p className="office_info">Office Time 8am - 18pm</p>
                     </div>
                 </Col>
 
-                <Col lg='2' md='3' sm='0'>
-                    <h5>Need Help</h5>
-                    <p className="footer-help mb-4">
-                        <i class="ri-phone-fill"></i> (+xx) xx xxxxx-xxxx
-                    </p>
-                    <button className="footer-btn btn">
-                        <Link to='/contact'>
-                            <i class="ri-phone-line"></i> Request a call
-                        </Link>
-                    </button>
+                <Col lg='3' md='4'>
+                    <div className="mb-4">
+                        <h5 className="footer_link-title">Newsletter</h5>
+                        <p className="section_description">Subscribe our newsletter</p>
+                        <div className="newsletter">
+                            <input type="email" placeholder="Email" />
+                            <span>
+                                <i class="ri-send-plane-line"></i>
+                            </span>
+                        </div>
+                    </div>
                 </Col>
-                <Col lg='12'>
-                    <div className="footer-bottom">
-                        <p className="section-description d-flex align-items-center justify-content-center gap-1 pt-4">
-                            <i class="ri-copyright-line"></i>Copyright {year}, Developed by xxxxx xxxxxx. All rights reserved.
+
+                <Col lg="12">
+                    <div className="footer_bottom">
+                        <p className="section_description d-flex align-items-center justify-content-center gap-1 pt-4">
+                            <i class="ri-copyright-line"></i>Copyright {year}, Developed by
+                            xxxxxxxxxxx. All rights reserved.
                         </p>
                     </div>
-
-
-
-
                 </Col>
             </Row>
         </Container>
