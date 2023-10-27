@@ -102,8 +102,7 @@ const Header = () => {
                         lg="2"
                         md="3"
                         sm="0"
-                        className=" d-flex align-items-center justify-content-end "
-                    >
+                        className="d-flex align-items-center justify-content-end">
                         <button className="header_btn btn ">
                             <Link to="/contact">
                                 <i class="ri-phone-line"></i> Request a call
@@ -114,13 +113,11 @@ const Header = () => {
             </Container>
         </div>
 
-
         {/* ========= Navegação ========= */}
-        <div className="main-navbar">
+        <div className="main_navbar">
             <Container>
-
-                <div className="navigation-wrapper d-flex align-items-center justify-content-between">
-                    <span className="mobile-menu">
+                <div className="navigation_wrapper d-flex align-items-center justify-content-between">
+                    <span className="mobile_menu">
                         <i class="ri-menu-line"></i>
                     </span>
 
@@ -136,17 +133,15 @@ const Header = () => {
                         </div>
                     </div>
 
-                    <div className="nav-right">
-                        <div className="search-box">
+                    <div className="nav_right">
+                        <div className="search_box">
                             <input type="text" placeholder="Search" />
                             <span><i class="ri-search-line"></i></span>
                         </div>
                     </div>
                 </div>
             </Container>
-
         </div>
-
     </header>
 }
 export default Header;
