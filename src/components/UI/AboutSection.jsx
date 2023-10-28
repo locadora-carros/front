@@ -10,35 +10,35 @@ const AboutSection = () => {
         <Container>
             <Row>
                 <Col lg='6' md='6'>
-                    <div className="about__section-content">
+                    <div className="about_section-content">
                         <h4 className="section_subtitle">About Us</h4>
                         <h2 className="section_title">Welcome to car rent service </h2>
-                        <p className="section__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, quae dignissimos. Temporibus tempore ut asperiores fuga, ex velit natus consequatur, facilis sint deserunt nam? Eos cumque consequuntur, qui eius tempore quis in amet temporibus deserunt, necessitatibus quisquam assumenda nulla molestiae?
+                        <p className="section_description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, quae dignissimos. Temporibus tempore ut asperiores fuga, ex velit natus consequatur, facilis sint deserunt nam? Eos cumque consequuntur, qui eius tempore quis in amet temporibus deserunt, necessitatibus quisquam assumenda nulla molestiae?
                         </p>
 
-                        <div className="about__section-item d-flex align-items-center">
-                            <p className="section__description d-flex align-items-center gap-2">
+                        <div className="about_section-item d-flex align-items-center">
+                            <p className="section_description d-flex align-items-center gap-2">
                                 <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit amet
                             </p>
 
-                            <p className="section__description d-flex align-items-center gap-2">
+                            <p className="section_description d-flex align-items-center gap-2">
                                 <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit amet
                             </p>
                         </div>
 
-                        <div className="about__section-item d-flex align-items-center">
-                            <p className="section__description d-flex align-items-center gap-2">
+                        <div className="about_section-item d-flex align-items-center">
+                            <p className="section_description d-flex align-items-center gap-2">
                                 <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit amet
                             </p>
 
-                            <p className="section__description d-flex align-items-center gap-2">
+                            <p className="section_description d-flex align-items-center gap-2">
                                 <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit amet
                             </p>
                         </div>
                     </div>
                 </Col>
                 <Col lg='6' md='6'>
-                    <div className="about__img">
+                    <div className="about_img">
                         <img src={aboutImg} alt="" className="w-100" />
                     </div>
                 </Col>
