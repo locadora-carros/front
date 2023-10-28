@@ -79,7 +79,7 @@ section {
 }
 
 .btn:hover {
-  color: #fff;
+  color: #fff !important;
   background: #000d6b;
 }
 
