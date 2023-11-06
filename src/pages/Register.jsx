@@ -7,23 +7,40 @@ import axios from 'axios'
 
 
 const Register = () => {
+    const [email, setEmail] = useState("");
+    const [password, setPassword] = useState("");
+    const [confirmPassword, setConfirmPassword] = useState("");
+    const [firstName, setFirstName] = useState("")
+    const [lastName, setLastName] = useState("")
+    const [successMessage, setSuccessMessage] = useState(""); // Estado para a mensagem de sucesso
 
-const [email, setEmail] = useState("");
-const [password, setPassword] = useState("");
-const [confirmPassword, setConfirmPassword] = useState("");
-const [firstName, setFirstName] = useState("")
-const [lastName, setLastName] = useState("")
 
-useEffect(() => {
-    axios.get()
-    .then(() => {
-        console.log("Deu certo")
-    })
-    .catch(() =>{
-        console.log("Deu errado")
-    })
 
-}, [])
+    //função para cadastrar na API "JSON QUE SERVER PARA A REQUISIÇÃO" *********** Mudar de acordo com o site dps 
+    const realizarCadastro = () => {
+        const cadastro = {
+            "email": email,
+            "nome": firstName,
+            "password": password, 
+            "UsuarioRole": "user"
+        }
+
+        try {
+            axios.post("http://localhost:8080/api/auth/registrar", cadastro)
+                .then((response) => {
+                    setSuccessMessage("Cadastro efetuado com sucesso!");
+                })
+                .catch((error) => {
+                    console.log("Erro ao cadastrar. Tente novamente.");
+                });
+        } catch (error) {
+            console.log("Erro na requisição.");
+        }
+        
+        
+        
+
+    } 
 return <div>
     <div className="login">
         <Container>
@@ -83,8 +100,10 @@ return <div>
                         </div>
 
                         <div className="container--form-btn">
-                            <button className="login-form-btn">Cadastrar</button>
-                        </div>
+                            <button className="login-form-btn" onClick={(e) => { 
+                                e.preventDefault();realizarCadastro();
+                                }}>Cadastrar</button>
+                            </div>
 
                         <div className="text-center">
                             <span className="txt1">Já possui conta? </span>
