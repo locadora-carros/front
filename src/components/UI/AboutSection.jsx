@@ -15,27 +15,27 @@ const AboutSection = (aboutClass) => {
                     <Col lg='6' md='6'>
                         <div className="about_section-content">
                             <h4 className="section_subtitle">About Us</h4>
-                            <h2 className="section_title">Welcome to car rent service </h2>
-                            <p className="section_description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas, quae dignissimos. Temporibus tempore ut asperiores fuga, ex velit natus consequatur, facilis sint deserunt nam? Eos cumque consequuntur, qui eius tempore quis in amet temporibus deserunt, necessitatibus quisquam assumenda nulla molestiae?
+                            <h2 className="section_title">Bem-vindo à Los Santos Company.</h2>
+                            <p className="section_description">Onde o seu conforto e conveniência estão em primeiro lugar. Com uma ampla gama de veículos modernos e bem-mantidos, estamos aqui para atender às suas necessidades de mobilidade. Seja para uma viagem de negócios, férias em família ou um evento especial, nossa locadora oferece opções variadas e preços competitivos. Com um compromisso com a qualidade e um atendimento excepcional, estamos prontos para tornar a sua experiência de aluguel de carro uma jornada fácil e agradável. Faça a sua reserva conosco hoje e descubra o mundo com conforto e estilo!
                             </p>
 
                             <div className="about_section-item d-flex align-items-center">
                                 <p className="section_description d-flex align-items-center gap-2">
-                                    <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit amet
+                                    <i class="ri-checkbox-circle-line"></i> Qualidade
                                 </p>
 
                                 <p className="section_description d-flex align-items-center gap-2">
-                                    <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit amet
+                                    <i class="ri-checkbox-circle-line"></i> Conforto
                                 </p>
                             </div>
 
                             <div className="about_section-item d-flex align-items-center">
                                 <p className="section_description d-flex align-items-center gap-2">
-                                    <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit amet
+                                    <i class="ri-checkbox-circle-line"></i> Segurança
                                 </p>
 
                                 <p className="section_description d-flex align-items-center gap-2">
-                                    <i class="ri-checkbox-circle-line"></i> Lorem ipsum dolor sit amet
+                                    <i class="ri-checkbox-circle-line"></i> Velocidade
                                 </p>
                             </div>
                         </div>

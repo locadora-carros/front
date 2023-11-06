@@ -66,7 +66,7 @@ const Header = () => {
                                 <Link to="/home" className=" d-flex align-items-center gap-1">
                                     <i class="ri-car-line"></i>
                                     <span>
-                                        Los Santos <br /> Service
+                                        Los Santos <br /> Company
                                     </span>
                                 </Link>
                             </h1>
@@ -91,7 +91,7 @@ const Header = () => {
                                 <i class="ri-time-line"></i>
                             </span>
                             <div className="header_location-content">
-                                <h4>Sunday to Sunday</h4>
+                                <h4>Domingo a Domingo</h4>
                                 <h6>8am - 18pm</h6>
                             </div>
                         </div>

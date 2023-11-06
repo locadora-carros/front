@@ -38,13 +38,13 @@ const Footer = () => {
                             <Link to="/home" className=" d-flex align-items-center gap-1">
                                 <i class="ri-car-line"></i>
                                 <span>
-                                    Los Santos <br /> Service
+                                    Los Santos <br /> Company
                                 </span>
                             </Link>
                         </h1>
                     </div>
                     <p className="footer_logo-content">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptas, earum soluta quis nesciunt aliquam quisquam aut laborum, dicta et eos fugit natus! Neque iusto nobis quas quam saepe fugiat.
+                    Obrigado por visitar nosso site de locadora de carros. Estamos aqui para tornar sua experiência de aluguel de veículos simples, segura e conveniente. Esperamos tê-lo como nosso cliente em breve!
                     </p>
                 </Col>
 
@@ -77,8 +77,8 @@ const Footer = () => {
 
                 <Col lg='3' md='4'>
                     <div className="mb-4">
-                        <h5 className="footer_link-title">Newsletter</h5>
-                        <p className="section_description">Subscribe our newsletter</p>
+                        <h5 className="footer_link-title">Receber Notícias</h5>
+                        <p className="section_description">Inscreva-se para ficar por dentro de nossas promoções</p>
                         <div className="newsletter">
                             <input type="email" placeholder="Email" />
                             <span>
