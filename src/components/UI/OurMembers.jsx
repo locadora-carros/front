@@ -2,11 +2,11 @@ import React from "react";
 import '../../styles/our-member.css'
 import { Col } from 'reactstrap'
 import { Link } from 'react-router-dom'
-import ava01 from "../../assets/all-images/ava-1.jpg";
-import ava02 from "../../assets/all-images/ava-2.jpg";
-import ava03 from "../../assets/all-images/ava-3.jpg";
-import ava04 from "../../assets/all-images/ava-4.jpg"
-
+import interro1 from "../../assets/all-images/interro.jpg";
+import interro2 from "../../assets/all-images/interro.jpg";
+import interro3 from "../../assets/all-images/interro.jpg";
+import interro4 from "../../assets/all-images/interro.jpg"
+import interro5 from "../../assets/all-images/interro.jpg"
 
 
 const OUR__MEMBERS = [
@@ -17,7 +17,7 @@ const OUR__MEMBERS = [
         instUrl: "#",
         twitUrl: "#",
         linkedinUrl: "#",
-        imgUrl: ava01,
+        imgUrl: interro1,
     },
 
     {
@@ -27,7 +27,7 @@ const OUR__MEMBERS = [
         instUrl: "#",
         twitUrl: "#",
         linkedinUrl: "#",
-        imgUrl: ava02,
+        imgUrl: interro2,
     },
 
     {
@@ -37,7 +37,7 @@ const OUR__MEMBERS = [
         instUrl: "#",
         twitUrl: "#",
         linkedinUrl: "#",
-        imgUrl: ava03,
+        imgUrl: interro3,
     },
 
     {
@@ -47,7 +47,17 @@ const OUR__MEMBERS = [
         instUrl: "#",
         twitUrl: "#",
         linkedinUrl: "#",
-        imgUrl: ava04,
+        imgUrl: interro4,
+    },
+
+    {
+        name: "xxxxxxxx",
+        experience: "xxxxxxxx",
+        fbUrl: "#",
+        instUrl: "#",
+        twitUrl: "#",
+        linkedinUrl: "#",
+        imgUrl: interro5,
     },
 ];
 
