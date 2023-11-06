@@ -5,13 +5,14 @@ import { Link } from 'react-router-dom'
 import ava01 from "../../assets/all-images/ava-1.jpg";
 import ava02 from "../../assets/all-images/ava-2.jpg";
 import ava03 from "../../assets/all-images/ava-3.jpg";
+import ava04 from "../../assets/all-images/ava-4.jpg"
 
 
 
 const OUR__MEMBERS = [
     {
         name: "xxxxxx",
-        experience: "5 years of experience",
+        experience: "xxxxxxxxxx",
         fbUrl: "#",
         instUrl: "#",
         twitUrl: "#",
@@ -21,7 +22,7 @@ const OUR__MEMBERS = [
 
     {
         name: "xxxxxxx",
-        experience: "5 years of experience",
+        experience: "xxxxxxxxx",
         fbUrl: "#",
         instUrl: "#",
         twitUrl: "#",
@@ -31,7 +32,7 @@ const OUR__MEMBERS = [
 
     {
         name: "xxxxxxx",
-        experience: "5 years of experience",
+        experience: "xxxxxxx",
         fbUrl: "#",
         instUrl: "#",
         twitUrl: "#",
@@ -40,13 +41,13 @@ const OUR__MEMBERS = [
     },
 
     {
-        name: "Jhon Doe",
-        experience: "5 years of experience",
+        name: "xxxxxxxx",
+        experience: "xxxxxxxx",
         fbUrl: "#",
         instUrl: "#",
         twitUrl: "#",
         linkedinUrl: "#",
-        imgUrl: ava01,
+        imgUrl: ava04,
     },
 ];
 
