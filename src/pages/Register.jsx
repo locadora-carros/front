@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import React from "react";
 import '../styles/logins.css'
 import axios from 'axios'
-
+import Swal from 'sweetalert2'
 
 const Register = () => {
     const [email, setEmail] = useState("");
@@ -29,6 +29,11 @@ const Register = () => {
             axios.post("http://localhost:8080/api/auth/registrar", cadastro)
                 .then((response) => {
                     setSuccessMessage("Cadastro efetuado com sucesso!");
+                    // Utilize o SweetAlert para mostrar a mensagem de sucesso
+                    Swal.fire({
+                        title: 'Cadastro efetuado com sucesso!',
+                        icon: 'success',
+                    });
                 })
                 .catch((error) => {
                     console.log("Erro ao cadastrar. Tente novamente.");
