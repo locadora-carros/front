@@ -42,9 +42,6 @@ const Register = () => {
             console.log("Erro na requisição.");
         }
         
-        
-        
-
     } 
 return <div>
     <div className="login">
